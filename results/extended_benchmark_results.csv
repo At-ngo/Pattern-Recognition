@@ -1,0 +1,43 @@
+Dataset,Method,Classifier,PR_AUC,ROC_AUC,Brier_Score,Fit_Time_ms
+synthetic data,Nosampling,Logistic Regression,0.771,0.947,0.0463,10.6
+synthetic data,Nosampling,Random Forest,0.888,0.965,0.0275,421.1
+synthetic data,Nosampling,XGBoost,0.982,0.994,0.0086,1943.8
+synthetic data,Borderline-SMOTE,Logistic Regression,0.715,0.923,0.1913,22.7
+synthetic data,Borderline-SMOTE,Random Forest,0.965,0.989,0.0435,579.3
+synthetic data,Borderline-SMOTE,XGBoost,0.973,0.993,0.0078,87.4
+synthetic data,KMeans-SMOTE,Logistic Regression,0.755,0.937,0.1517,637.7
+synthetic data,KMeans-SMOTE,Random Forest,0.896,0.971,0.0497,509.0
+synthetic data,KMeans-SMOTE,XGBoost,0.981,0.994,0.0101,87.7
+synthetic data,SVM-SMOTE,Logistic Regression,0.761,0.943,0.1632,31.0
+synthetic data,SVM-SMOTE,Random Forest,0.95,0.989,0.0645,529.9
+synthetic data,SVM-SMOTE,XGBoost,0.996,1.0,0.0055,72.9
+synthetic data,SMOTE-Tomek,Logistic Regression,0.77,0.947,0.0914,24.5
+synthetic data,SMOTE-Tomek,Random Forest,0.912,0.979,0.0588,623.0
+synthetic data,SMOTE-Tomek,XGBoost,0.971,0.99,0.0089,68.7
+synthetic data,SMOTE-ENN,Logistic Regression,0.77,0.947,0.0917,26.6
+synthetic data,SMOTE-ENN,Random Forest,0.913,0.98,0.0586,539.9
+synthetic data,SMOTE-ENN,XGBoost,0.971,0.989,0.0104,73.1
+synthetic data,Cost-Sensitive,Logistic Regression,0.772,0.947,0.0958,9.8
+synthetic data,Cost-Sensitive,Random Forest,0.93,0.978,0.0499,467.9
+synthetic data,Cost-Sensitive,XGBoost,0.974,0.991,0.01,51.4
+thyroid_sick,Nosampling,Logistic Regression,0.552,0.927,0.0408,37.1
+thyroid_sick,Nosampling,Random Forest,0.837,0.972,0.0313,657.7
+thyroid_sick,Nosampling,XGBoost,0.968,0.997,0.0088,165.5
+thyroid_sick,Borderline-SMOTE,Logistic Regression,0.602,0.941,0.0892,108.1
+thyroid_sick,Borderline-SMOTE,Random Forest,0.819,0.973,0.0851,918.1
+thyroid_sick,Borderline-SMOTE,XGBoost,0.967,0.997,0.011,464.5
+thyroid_sick,KMeans-SMOTE,Logistic Regression,0.333,0.867,0.0721,199.4
+thyroid_sick,KMeans-SMOTE,Random Forest,0.733,0.943,0.0618,1052.9
+thyroid_sick,KMeans-SMOTE,XGBoost,0.967,0.997,0.0093,477.8
+thyroid_sick,SVM-SMOTE,Logistic Regression,0.609,0.942,0.0807,347.3
+thyroid_sick,SVM-SMOTE,Random Forest,0.803,0.97,0.0752,1272.7
+thyroid_sick,SVM-SMOTE,XGBoost,0.97,0.998,0.0105,560.4
+thyroid_sick,SMOTE-Tomek,Logistic Regression,0.634,0.946,0.0847,902.9
+thyroid_sick,SMOTE-Tomek,Random Forest,0.808,0.971,0.08,1748.1
+thyroid_sick,SMOTE-Tomek,XGBoost,0.97,0.998,0.0103,1436.5
+thyroid_sick,SMOTE-ENN,Logistic Regression,0.612,0.944,0.0975,799.9
+thyroid_sick,SMOTE-ENN,Random Forest,0.782,0.97,0.084,1909.7
+thyroid_sick,SMOTE-ENN,XGBoost,0.904,0.994,0.0164,1228.9
+thyroid_sick,Cost-Sensitive,Logistic Regression,0.602,0.941,0.0967,55.8
+thyroid_sick,Cost-Sensitive,Random Forest,0.827,0.974,0.0769,711.1
+thyroid_sick,Cost-Sensitive,XGBoost,0.974,0.997,0.0092,203.2

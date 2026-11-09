@@ -1,0 +1,31 @@
+Dataset,Oversampler,Classifier,Average_Precision_Mean,Average_Precision_Std
+synthetic data,Nosampling,Logistic Regression,0.771,0.097
+synthetic data,Nosampling,Random Forest,0.888,0.06
+synthetic data,Nosampling,XGBoost,0.982,0.036
+synthetic data,RandomOverSampler,Logistic Regression,0.771,0.094
+synthetic data,RandomOverSampler,Random Forest,0.933,0.051
+synthetic data,RandomOverSampler,XGBoost,0.977,0.038
+synthetic data,SMOTE,Logistic Regression,0.77,0.093
+synthetic data,SMOTE,Random Forest,0.912,0.06
+synthetic data,SMOTE,XGBoost,0.971,0.044
+synthetic data,ADASYN,Logistic Regression,0.742,0.093
+synthetic data,ADASYN,Random Forest,0.95,0.038
+synthetic data,ADASYN,XGBoost,0.974,0.039
+synthetic data,Borderline-SMOTE,Logistic Regression,0.715,0.096
+synthetic data,Borderline-SMOTE,Random Forest,0.965,0.046
+synthetic data,Borderline-SMOTE,XGBoost,0.973,0.04
+thyroid_sick,Nosampling,Logistic Regression,0.552,0.09
+thyroid_sick,Nosampling,Random Forest,0.837,0.056
+thyroid_sick,Nosampling,XGBoost,0.968,0.013
+thyroid_sick,RandomOverSampler,Logistic Regression,0.629,0.084
+thyroid_sick,RandomOverSampler,Random Forest,0.816,0.07
+thyroid_sick,RandomOverSampler,XGBoost,0.975,0.011
+thyroid_sick,SMOTE,Logistic Regression,0.633,0.089
+thyroid_sick,SMOTE,Random Forest,0.807,0.073
+thyroid_sick,SMOTE,XGBoost,0.968,0.015
+thyroid_sick,ADASYN,Logistic Regression,0.638,0.081
+thyroid_sick,ADASYN,Random Forest,0.818,0.071
+thyroid_sick,ADASYN,XGBoost,0.964,0.018
+thyroid_sick,Borderline-SMOTE,Logistic Regression,0.602,0.087
+thyroid_sick,Borderline-SMOTE,Random Forest,0.819,0.072
+thyroid_sick,Borderline-SMOTE,XGBoost,0.967,0.015
